@@ -28,7 +28,7 @@ type Recipe {
   instructions: [String]
   "A list of ingredients the recipe calls for"
   ingredients: [Ingredient]
-  "A list of recipes that is related to this particular one, for discoverability"
+  "A list of recipes that is related to this particular one"
   relatedRecipes: [Recipe]
   "List of cookware needed for the recipe"
   cookware: [Cookware]
